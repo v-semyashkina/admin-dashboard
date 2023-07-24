@@ -19,349 +19,455 @@
 	<body>
 		<header>
 			<div>
-				<img
-					src="./images/magnify.svg"
-					alt="search bar icon"
-					class="icon"
-				/>
-				<input
-					type="text"
-					placeholder="Поиск..."
-				/>
-				<button type="button">
+				<div class="search">
 					<img
-						src="./images/bell-ring-outline.svg"
-						alt="notifications icon"
-						class="icon icon-btn"
+						src="./images/magnify.svg"
+						alt="search bar icon"
+						class="icon"
 					/>
-				</button>
-				<img
-					src="./images/up-fox.jpg"
-					alt="admin userpic"
-					class="userpic"
-				/>
-				<h4>Mr. Fox</h4>
-			</div>
-			<div>
-				<img
-					src="./images/up-fox-100.jpg"
-					alt="admin userpic big"
-					class="current-user"
-				/>
-				<div class="greeting">
-					<p>Привет,</p>
-					<h2>Mr. Fox (@fox)</h2>
+					<input
+						type="text"
+						placeholder="Поиск..."
+					/>
 				</div>
-				<button type="button">Новая запись</button>
-				<button type="button">Опубликовать</button>
-				<button type="button">Поделиться</button>
+				<div>
+					<button
+						type="button"
+						class="icon-btn"
+					>
+						<img
+							src="./images/bell-ring-outline.svg"
+							alt="иконка уведомлений"
+							class="icon"
+						/>
+					</button>
+					<img
+						src="./images/up-fox.jpg"
+						alt="аватар админа"
+						class="userpic"
+					/>
+					<h4>Mr. Fox</h4>
+				</div>
+			</div>
+			<div class="second-row">
+				<div>
+					<img
+						src="./images/up-fox-100.jpg"
+						alt="аватар админа большой"
+						class="current-user userpic"
+					/>
+					<div class="greeting">
+						<p>Привет,</p>
+						<h2>Mr. Fox (@fox)</h2>
+					</div>
+				</div>
+				<div class="header-buttons">
+					<button
+						type="button"
+						class="btn"
+					>
+						Новая запись
+					</button>
+					<button
+						type="button"
+						class="btn"
+					>
+						Опубликовать
+					</button>
+					<button
+						type="button"
+						class="btn"
+					>
+						Поделиться
+					</button>
+				</div>
 			</div>
 		</header>
 		<section class="sidebar">
-			<img
-				src="./images/view-dashboard.svg"
-				alt="иконка сайдбара"
-				class="dash-icon"
-			/>
-			<h2>Главная</h2>
-			<ul>
-				<li>
-					<a href="#">
-						<img
-							src="./images/home-outline.svg"
-							alt="иконка домой"
-							class="icon"
-						/>
-						Домой
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="./images/card-account-details-outline.svg"
-							alt="иконка профиля"
-							class="icon"
-						/>Профиль</a
-					>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="./images/message-reply-outline.svg"
-							alt="иконка сообщений"
-							class="icon"
-						/>Сообщения</a
-					>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="./images/clock-outline.svg"
-							alt="иконка истории"
-							class="icon"
-						/>История</a
-					>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="./images/note-multiple-outline.svg"
-							alt="иконка задач"
-							class="icon"
-						/>Задачи</a
-					>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="./images/account-group-outline.svg"
-							alt="иконка сообществ"
-							class="icon"
-						/>Сообщества</a
-					>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<a href="#">
-						<img
-							src="./images/cog-outline.svg"
-							alt="иконка настроек"
-							class="icon"
-						/>Настройки</a
-					>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="./images/help-box-outline.svg"
-							alt="иконка поддержки"
-							class="icon"
-						/>Поддержка</a
-					>
-				</li>
-				<li>
-					<a href="#">
-						<img
-							src="./images/shield-alert-outline.svg"
-							alt="иконка настроек приватности"
-							class="icon"
-						/>Настройки приватности</a
-					>
-				</li>
-			</ul>
+			<div class="sidebar-heading">
+				<img
+					src="./images/view-dashboard.svg"
+					alt="иконка сайдбара"
+					class="dash-icon"
+				/>
+				<h2>Главная</h2>
+			</div>
+			<nav>
+				<ul>
+					<li>
+						<a href="#">
+							<img
+								src="./images/home-outline.svg"
+								alt="иконка домой"
+								class="icon"
+							/>
+							<h4>Домой</h4>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img
+								src="./images/card-account-details-outline.svg"
+								alt="иконка профиля"
+								class="icon"
+							/>
+							<h4>Профиль</h4></a
+						>
+					</li>
+					<li>
+						<a href="#">
+							<img
+								src="./images/message-reply-outline.svg"
+								alt="иконка сообщений"
+								class="icon"
+							/>
+							<h4>Сообщения</h4>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img
+								src="./images/clock-outline.svg"
+								alt="иконка истории"
+								class="icon"
+							/>
+							<h4>История</h4></a
+						>
+					</li>
+					<li>
+						<a href="#">
+							<img
+								src="./images/note-multiple-outline.svg"
+								alt="иконка задач"
+								class="icon"
+							/>
+							<h4>Задачи</h4></a
+						>
+					</li>
+					<li>
+						<a href="#">
+							<img
+								src="./images/account-group-outline.svg"
+								alt="иконка сообществ"
+								class="icon"
+							/>
+							<h4>Сообщества</h4></a
+						>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="#">
+							<img
+								src="./images/cog-outline.svg"
+								alt="иконка настроек"
+								class="icon"
+							/>
+							<h4>Настройки</h4></a
+						>
+					</li>
+					<li>
+						<a href="#">
+							<img
+								src="./images/help-box-outline.svg"
+								alt="иконка поддержки"
+								class="icon"
+							/>
+							<h4>Поддержка</h4></a
+						>
+					</li>
+					<li>
+						<a href="#">
+							<img
+								src="./images/shield-alert-outline.svg"
+								alt="иконка настроек приватности"
+								class="icon"
+							/>
+							<h4>Настройки приватности</h4></a
+						>
+					</li>
+				</ul>
+			</nav>
 		</section>
 		<main>
 			<section>
-				<h4>Ваши проекты</h4>
-				<article>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<h4>Back to the Future</h4>
-					</a>
-					<p>
-						My density has popped me to you. Since when can weathermen predict
-						the weather, let alone the future?
-					</p>
-					<button type="button">
-						<img
-							src="./images/star-plus-outline.svg"
-							alt="кнопка избранного"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/eye-plus-outline.svg"
-							alt="кнопка следить"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/share-variant-outline.svg"
-							alt="кнопка поделиться"
-							class="icon icon-btn"
-						/>
-					</button>
-				</article>
-				<article>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<h4>The Lord of the Rings</h4>
-					</a>
-					<p>
-						I thought up an ending for my book: ‘And he lived happily ever
-						after, unto the end of his days.' When in doubt, follow your nose.
-					</p>
-					<button type="button">
-						<img
-							src="./images/star-plus-outline.svg"
-							alt="кнопка избранного"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/eye-plus-outline.svg"
-							alt="кнопка следить"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/share-variant-outline.svg"
-							alt="кнопка поделиться"
-							class="icon icon-btn"
-						/>
-					</button>
-				</article>
-				<article>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<h4>The Matrix</h4>
-					</a>
-					<p>
-						The body cannot live without the mind. Human beings are a disease. A
-						cancer of this planet.
-					</p>
-					<button type="button">
-						<img
-							src="./images/star-plus-outline.svg"
-							alt="кнопка избранного"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/eye-plus-outline.svg"
-							alt="кнопка следить"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/share-variant-outline.svg"
-							alt="кнопка поделиться"
-							class="icon icon-btn"
-						/>
-					</button>
-				</article>
-				<article>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<h4>Harry Potter</h4>
-					</a>
-					<p>
-						It is our choices, Harry, that show what we truly are, far more than
-						our abilities. Fame is a fickle friend, Harry.
-					</p>
-					<button type="button">
-						<img
-							src="./images/star-plus-outline.svg"
-							alt="кнопка избранного"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/eye-plus-outline.svg"
-							alt="кнопка следить"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/share-variant-outline.svg"
-							alt="кнопка поделиться"
-							class="icon icon-btn"
-						/>
-					</button>
-				</article>
-				<article>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-					>
-						<h4>Aladdin</h4>
-					</a>
-					<p>
-						If I were as rich as you, I could afford some manners! Desperate
-						times call for desperate measures, my lord.
-					</p>
-					<button type="button">
-						<img
-							src="./images/star-plus-outline.svg"
-							alt="кнопка избранного"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/eye-plus-outline.svg"
-							alt="кнопка следить"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/share-variant-outline.svg"
-							alt="кнопка поделиться"
-							class="icon icon-btn"
-						/>
-					</button>
-				</article>
-				<article>
-					<a
-						href="#"
-						target="_blank"
-						rel="noopener noreferrer"
-						><h4>Forrest Gump</h4></a
-					>
-					<p>
-						Mama always had a way of explaining things so I could understand
-						them. If there’s anything you need, I won’t be far away.
-					</p>
-					<button type="button">
-						<img
-							src="./images/star-plus-outline.svg"
-							alt="кнопка избранного"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/eye-plus-outline.svg"
-							alt="кнопка следить"
-							class="icon icon-btn"
-						/>
-					</button>
-					<button type="button">
-						<img
-							src="./images/share-variant-outline.svg"
-							alt="кнопка поделиться"
-							class="icon icon-btn"
-						/>
-					</button>
-				</article>
+				<h2>Ваши проекты</h2>
+				<div class="articles">
+					<article>
+						<a
+							href="#"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<h4>Back to the Future</h4>
+						</a>
+						<p>
+							My density has popped me to you. Since when can weathermen predict
+							the weather, let alone the future?
+						</p>
+						<div class="buttons">
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/star-plus-outline.svg"
+									alt="кнопка избранного"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/eye-plus-outline.svg"
+									alt="кнопка следить"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/share-variant-outline.svg"
+									alt="кнопка поделиться"
+									class="icon"
+								/>
+							</button>
+						</div>
+					</article>
+					<article>
+						<a
+							href="#"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<h4>The Lord of the Rings</h4>
+						</a>
+						<p>
+							I thought up an ending for my book: ‘And he lived happily ever
+							after, unto the end of his days.' When in doubt, follow your nose.
+						</p>
+						<div class="buttons">
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/star-plus-outline.svg"
+									alt="кнопка избранного"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/eye-plus-outline.svg"
+									alt="кнопка следить"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/share-variant-outline.svg"
+									alt="кнопка поделиться"
+									class="icon"
+								/>
+							</button>
+						</div>
+					</article>
+					<article>
+						<a
+							href="#"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<h4>The Matrix</h4>
+						</a>
+						<p>
+							The body cannot live without the mind. Human beings are a disease.
+							A cancer of this planet.
+						</p>
+						<div class="buttons">
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/star-plus-outline.svg"
+									alt="кнопка избранного"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/eye-plus-outline.svg"
+									alt="кнопка следить"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/share-variant-outline.svg"
+									alt="кнопка поделиться"
+									class="icon"
+								/>
+							</button>
+						</div>
+					</article>
+					<article>
+						<a
+							href="#"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<h4>Harry Potter</h4>
+						</a>
+						<p>
+							It is our choices, Harry, that show what we truly are, far more
+							than our abilities. Fame is a fickle friend, Harry.
+						</p>
+						<div class="buttons">
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/star-plus-outline.svg"
+									alt="кнопка избранного"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/eye-plus-outline.svg"
+									alt="кнопка следить"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/share-variant-outline.svg"
+									alt="кнопка поделиться"
+									class="icon"
+								/>
+							</button>
+						</div>
+					</article>
+					<article>
+						<a
+							href="#"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<h4>Aladdin</h4>
+						</a>
+						<p>
+							If I were as rich as you, I could afford some manners! Desperate
+							times call for desperate measures, my lord.
+						</p>
+						<div class="buttons">
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/star-plus-outline.svg"
+									alt="кнопка избранного"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/eye-plus-outline.svg"
+									alt="кнопка следить"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/share-variant-outline.svg"
+									alt="кнопка поделиться"
+									class="icon"
+								/>
+							</button>
+						</div>
+					</article>
+					<article>
+						<a
+							href="#"
+							target="_blank"
+							rel="noopener noreferrer"
+							><h4>Forrest Gump</h4></a
+						>
+						<p>
+							Mama always had a way of explaining things so I could understand
+							them. If there’s anything you need, I won’t be far away.
+						</p>
+						<div class="buttons">
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/star-plus-outline.svg"
+									alt="кнопка избранного"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/eye-plus-outline.svg"
+									alt="кнопка следить"
+									class="icon"
+								/>
+							</button>
+							<button
+								type="button"
+								class="icon-btn"
+							>
+								<img
+									src="./images/share-variant-outline.svg"
+									alt="кнопка поделиться"
+									class="icon"
+								/>
+							</button>
+						</div>
+					</article>
+				</div>
 			</section>
 			<aside>
 				<section>
 					<h2>Новости</h2>
-					<ul>
+					<ul class="news">
 						<li>
 							<a
 								href="#"
@@ -370,10 +476,7 @@
 							>
 								<h4>Техническое обуслуживание сайта</h4>
 							</a>
-							<p>
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-								Provident, fugiat.
-							</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
 						</li>
 						<li>
 							<a
@@ -383,10 +486,7 @@
 							>
 								<h4>День обмена опытом</h4>
 							</a>
-							<p>
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-								Provident, fugiat.
-							</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
 						</li>
 						<li>
 							<a
@@ -396,16 +496,13 @@
 							>
 								<h4>Обновление политики конфиденциальности</h4>
 							</a>
-							<p>
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-								Provident, fugiat.
-							</p>
+							<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit...</p>
 						</li>
 					</ul>
 				</section>
 				<section>
-					<h4>Популярно</h4>
-					<ul>
+					<h2>Популярно</h2>
+					<ul class="trending">
 						<li>
 							<a
 								href="#"
@@ -417,8 +514,10 @@
 									alt="buster аватар"
 									class="userpic"
 								/>
-								<h6>@buster</h6>
-								<p>Buster Moon</p>
+								<div>
+									<h6>@buster</h6>
+									<p>Buster Moon</p>
+								</div>
 							</a>
 						</li>
 						<li>
@@ -432,8 +531,10 @@
 									alt="fox аватар"
 									class="userpic"
 								/>
-								<h6>@fox</h6>
-								<p>Mr. Fox</p>
+								<div>
+									<h6>@fox</h6>
+									<p>Mr. Fox</p>
+								</div>
 							</a>
 						</li>
 						<li>
@@ -447,8 +548,10 @@
 									alt="bugs аватар"
 									class="userpic"
 								/>
-								<h6>@bugs</h6>
-								<p>Bugs Bunny</p>
+								<div>
+									<h6>@bugs</h6>
+									<p>Bugs Bunny</p>
+								</div>
 							</a>
 						</li>
 						<li>
@@ -462,8 +565,10 @@
 									alt="khan аватар"
 									class="userpic"
 								/>
-								<h6>@khan</h6>
-								<p>Shere Khan</p>
+								<div>
+									<h6>@khan</h6>
+									<p>Shere Khan</p>
+								</div>
 							</a>
 						</li>
 					</ul>
