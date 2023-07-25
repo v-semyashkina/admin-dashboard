@@ -249,10 +249,10 @@ input:focus::placeholder {
 	border: none;
 	background-color: #0ea5e9;
 	color: white;
-	font-size: 1rem;
+	font-size: 0.85rem;
 	font-weight: 500;
 	height: 30px;
-	width: 120px;
+	width: 105px;
 	border-radius: 20px;
 }
 
