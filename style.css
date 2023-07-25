@@ -289,7 +289,7 @@ input:focus::placeholder {
 	background-color: #0ea5e9;
 	padding-top: 10px;
 	height: 100vh;
-	width: 60px;
+	width: 55px;
 	position: fixed;
 }
 
